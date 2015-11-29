@@ -1,0 +1,1 @@
+list := LinkedList new.list add: 5.list add: 9.list includes: 5.list size. map := Dictionary new.map add: (Association key: 'rect' value: LinkedList new).(map at: 'rect') add: 5.map at: 'rect'.system := SubSystem createWithUpkeep: 5 andManufacturer: 'tim'.system addWorker: list.system removeWorker: list.system workers
